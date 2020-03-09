@@ -1,0 +1,21 @@
+body {
+  background: rgb(178, 187, 236);
+}
+
+.container {
+  height: 100vw;
+  width: 100vw;
+  position: relative;
+}
+
+.ball {
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
